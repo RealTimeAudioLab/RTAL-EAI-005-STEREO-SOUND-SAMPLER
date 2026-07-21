@@ -2,7 +2,7 @@
 ## Eight-Voice Dual-Sample Stereo Sampler for ESP32-S3
 
 <p align="center">
-  <img src="images/rtal-stereosampler-8-hero.jpg"
+  <img src="images/RTAL_Stereo_Sampler_1.jpg"
        alt="RTAL StereoSampler 8"
        width="900">
 </p>
@@ -304,7 +304,7 @@ The unequal allocation provides a larger primary sample memory together with a s
 
 ## Prototype Construction
 
-The instrument was built on perfboard using hand-wired Fädeltechnik rather than a dedicated production PCB.
+The instrument was built on perfboard using hand-wired Wire Wrapping rather than a dedicated production PCB.
 
 This approach made it possible to:
 
@@ -315,7 +315,7 @@ This approach made it possible to:
 - and retain the character of a true engineering prototype.
 
 <p align="center">
-  <img src="images/prototype-front.jpg"
+  <img src="images/RTAL_Stereo_Sampler_3.jpg"
        alt="RTAL StereoSampler 8 front panel"
        width="800">
 </p>
@@ -325,7 +325,7 @@ This approach made it possible to:
 </p>
 
 <p align="center">
-  <img src="images/prototype-inside.jpg"
+  <img src="images/RTAL_Stereo_Sampler_2.jpg"
        alt="RTAL StereoSampler 8 internal construction"
        width="800">
 </p>
@@ -333,53 +333,6 @@ This approach made it possible to:
 <p align="center">
   <em>Internal construction with ESP32-S3, interface modules and hand-wired perfboard.</em>
 </p>
-
----
-
-## Suggested Image Gallery
-
-| Image | Suggested Filename |
-|---|---|
-| Complete instrument | `images/rtal-stereosampler-8-hero.jpg` |
-| Front panel and touchscreen | `images/prototype-front.jpg` |
-| Internal construction | `images/prototype-inside.jpg` |
-| Main perfboard wiring | `images/perfboard-wiring.jpg` |
-| Display user interface | `images/touchscreen-ui.jpg` |
-| Rear audio and MIDI connections | `images/rear-panel.jpg` |
-| TouchOSC control page | `images/touchosc-control.jpg` |
-| Windows FTP access | `images/ftp-file-access.jpg` |
-| WAV playback and loop display | `images/wav-loop-display.jpg` |
-
----
-
-## Repository Structure
-
-```text
-RTAL-StereoSampler-8/
-├── README.md
-├── LICENSE
-├── CHANGELOG.md
-├── firmware/
-│   └── RTAL_StereoSampler_8/
-├── hardware/
-│   ├── schematics/
-│   ├── wiring/
-│   ├── pinout/
-│   └── bill-of-materials/
-├── docs/
-│   ├── user-manual/
-│   ├── midi-implementation/
-│   ├── touchosc/
-│   ├── ftp-workflow/
-│   └── wav-loop-format/
-├── images/
-├── samples/
-│   └── demo-content/
-└── engineering_archive/
-    ├── development-notes/
-    ├── test-results/
-    └── historical-versions/
-```
 
 ---
 
@@ -425,7 +378,7 @@ The project is published as part of the RealTimeAudioLab collection to preserve 
 
 > Build capable digital audio instruments from accessible hardware, document the engineering decisions and preserve the complete path from idea to working prototype.
 
-RTAL StereoSampler 8 demonstrates that a compact ESP32-S3 system can combine polyphonic stereo sampling, resonant filtering, touch operation, physical controls, network services and an extensive effects section in one integrated instrument.
+RTAL Stereo Sound Sampler demonstrates that a compact ESP32-S3 system can combine polyphonic stereo sampling, resonant filtering, touch operation, physical controls, network services and an extensive effects section in one integrated instrument.
 
 ---
 
